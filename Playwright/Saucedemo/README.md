@@ -1,6 +1,6 @@
-# **KadreeTec – UI Automation (Playwright Framework)**
+# **UI Automation (Playwright Framework)**
 
-Este módulo forma parte del repositorio **KadreeTec-QA-Automation**, y contiene la automatización de pruebas UI utilizando **Playwright** bajo un diseño escalable basado en **Page Object Model (POM)**.
+Este módulo forma parte del repositorio **KadreeTech-QA-Automation**, y contiene la automatización de pruebas UI utilizando **Playwright** bajo un diseño escalable basado en **Page Object Model (POM)**.
 
 Su propósito dentro de la arquitectura de automatización es:
 
@@ -61,8 +61,8 @@ Playwright/
 ##  **Clonar el repositorio**
 
 ```bash
-git clone https://github.com/hmalave17/KadreeTec-QA-Automation.git
-cd KadreeTec-QA-Automation/Playwright
+git clone https://github.com/hmalave17/KadreeTech-QA-Automation.git
+cd KadreeTech-QA-Automation/Playwright
 ```
 
 ---
