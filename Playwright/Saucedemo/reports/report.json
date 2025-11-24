@@ -1,0 +1,343 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-webside;login-successful",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "login successful",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1355147100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user open webside",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1550954200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user into her data",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208458800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "system show webside",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15030200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 347825400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-webside;login-wrong",
+        "keyword": "Scenario Outline",
+        "line": 14,
+        "name": "login wrong",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 543984800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user open webside",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 748456599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user into her data 'locked_out_user'",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147499399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "system show error 'Epic sadface: Sorry, this user has been locked out.'",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22268999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 328737100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-webside;login-wrong",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "login wrong",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 495092500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user open webside",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 687735099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user into her data 'hernan'",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143022800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "system show error 'Epic sadface: Username and password do not match any user in this service'",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15863799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 328532600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-webside;username-mandatory",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "username mandatory",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 502003099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "user open webside",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1735517999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user doesnot send username",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105008900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "system show error",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15053900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 317848700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-to-webside;password-mandatory",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "password mandatory",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 483184300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "user open webside",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 764405500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user doesnot send password",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 119335600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "system show error",
+            "match": {
+              "location": "src\\steps\\login.steps.ts:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15283099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 346462700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-webside",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "login to webside",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  }
+]

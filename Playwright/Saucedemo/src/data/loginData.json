@@ -1,0 +1,15 @@
+{
+    "validUser": {
+        "username": "standard_user",
+        "password": "secret_sauce"
+    },
+    "invalidUSer": {
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "usernameNoRegistered": "hernan"
+    },
+    "emptyCredentials": {
+        "username": "",
+        "password": ""
+    }
+}

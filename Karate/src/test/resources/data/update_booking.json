@@ -1,0 +1,11 @@
+{
+  "firstname": "Nancho",
+  "lastname": "Automation",
+  "totalprice": 111,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-31",
+    "checkout": "2025-02-28"
+  },
+  "additionalneeds": "Breakfast"
+}
