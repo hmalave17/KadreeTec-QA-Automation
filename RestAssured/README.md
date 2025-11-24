@@ -1,8 +1,8 @@
-# KadreeTec — POC RestAssured (QA Automation)
+# RestAssured (QA Automation)
 
 ## Proyecto: POC RestAssured — KadreeTec
 
-Este proyecto es una **Prueba de Concepto (POC)** para la capa de servicios (microservicios / API) del stack de pruebas de **KadreeTec**.  
+Este proyecto es una **Prueba de Concepto (POC)** para la capa de servicios (microservicios / API) del stack de pruebas de **KadreeTech**.  
 El objetivo es validar el comportamiento del framework de automatización en los consumos de los endpoints con una arquitectura escalable y facil de mantener. 
 
 > **Autor:** Hernán José Malave Montero  
@@ -75,14 +75,14 @@ El objetivo es validar el comportamiento del framework de automatización en los
   <li>Clonar el repositorio usando el siguiente comando:</li>
 </ul>
 
-<pre><code>git clone https://github.com/hmalave17/KadreeTec-QA-Automation.git
+<pre><code>git clone https://github.com/hmalave17/KadreeTech-QA-Automation.git
 </code></pre>
 
 <ul>
   <li>Ingresar en la carpeta del proyecto RestAssured:</li>
 </ul>
 
-<pre><code>cd KadreeTec-QA-Automation/RestAssured
+<pre><code>cd KadreeTech-QA-Automation/RestAssured
 </code></pre>
 
 <hr>
