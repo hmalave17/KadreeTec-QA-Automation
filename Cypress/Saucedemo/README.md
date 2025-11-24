@@ -1,8 +1,8 @@
-# **KadreeTec – Frontend Automation (Cypress + Cucumber)**
+# Frontend Automation (Cypress + Cucumber)**
 
 Este módulo forma parte del repositorio **KadreeTec-QA-Automation** y contiene la automatización de pruebas **end-to-end del Frontend**, utilizando **Cypress** con integración **Cucumber (BDD)** para lograr escenarios legibles, robustos y fáciles de mantener.
 
-Este proyecto se diseñó como una **prueba de concepto (POC)** para validar Cypress como framework de automatización frontend dentro de la arquitectura KadreeTec, evaluando su rapidez, estabilidad y facilidad de integración con pipelines CI/CD.
+Este proyecto se diseñó como una **prueba de concepto (POC)** para validar Cypress como framework de automatización frontend, evaluando su rapidez, estabilidad y facilidad de integración con pipelines CI/CD.
 
 ---
 
