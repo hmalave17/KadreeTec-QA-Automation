@@ -1,6 +1,6 @@
 # RestAssured (QA Automation)
 
-## Proyecto: POC RestAssured — KadreeTec
+## Proyecto: POC RestAssured — KadreeTech
 
 Este proyecto es una **Prueba de Concepto (POC)** para la capa de servicios (microservicios / API) del stack de pruebas de **KadreeTech**.  
 El objetivo es validar el comportamiento del framework de automatización en los consumos de los endpoints con una arquitectura escalable y facil de mantener. 
