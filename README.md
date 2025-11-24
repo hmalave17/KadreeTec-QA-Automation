@@ -1,6 +1,6 @@
-# 🚀 KadreeTec – QA Automation Framework Suite
+# KadreeTec – QA Automation Framework Suite
 
-Este repositorio contiene una **suite completa de automatización QA**, diseñada como una **prueba de concepto (POC)** para evaluar diferentes frameworks y herramientas en los distintos niveles de testing de una arquitectura moderna.
+Este repositorio contiene una **suite completa de automatización QA**, diseñada como una **prueba de concepto (POC)** para evaluar diferentes frameworks y herramientas en los distintos niveles de testing.
 
 Cada módulo representa una posible solución para una capa específica del ecosistema KadreeTec:
 
@@ -66,13 +66,13 @@ El propósito de este repositorio es:
   - Data-Driven
   - Independencia entre capas
   - Reusabilidad y mantenibilidad
-- Servir como base para un futuro framework unificado de KadreeTec.
+
 
 ---
 
 # Frameworks incluidos
 
-### ✔ **RestAssured (Microservicios con Java)**
+### **RestAssured (Microservicios con Java)**
 Automatización de pruebas API REST usando:
 - Java
 - RestAssured
@@ -84,7 +84,7 @@ Automatización de pruebas API REST usando:
 
 ---
 
-### ✔ **Karate (BFF / Integración)**
+### **Karate (BFF / Integración)**
 Framework ideal para la capa intermedia (BFF), con:
 
 - DSL simple para pruebas API
@@ -97,7 +97,7 @@ Framework ideal para la capa intermedia (BFF), con:
 
 ---
 
-### ✔ **Playwright (Frontend Web)**
+### **Playwright (Frontend Web)**
 Automatización moderna de UI con:
 
 - Soporte multiplataforma y multinavegador
@@ -110,7 +110,7 @@ Automatización moderna de UI con:
 
 ---
 
-### ✔ **Cypress (Frontend Web Alternativo)**
+### **Cypress (Frontend Web Alternativo)**
 Framework de mayor adopción en la industria, fácil de usar:
 
 - Excelente Developer Experience
