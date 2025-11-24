@@ -1,4 +1,4 @@
-# KadreeTec – QA Automation Framework Suite
+# QA Automation Framework Suite
 
 Este repositorio contiene una **suite completa de automatización QA**, diseñada como una **prueba de concepto (POC)** para evaluar diferentes frameworks y herramientas en los distintos niveles de testing.
 
